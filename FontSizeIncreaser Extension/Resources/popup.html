@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Font Size Increaser</title>
+  <link rel="stylesheet" href="popup.css">
+</head>
+<body>
+  <div class="container">
+    <h1>Aa</h1>
+    <p class="site-label" id="siteLabel">—</p>
+
+    <div class="slider-section">
+      <input
+        type="range"
+        id="fontSlider"
+        min="100"
+        max="200"
+        value="100"
+        step="5"
+      />
+      <div class="range-labels">
+        <span>100%</span>
+        <span>200%</span>
+      </div>
+    </div>
+
+    <p class="current-value" id="currentValue">100%</p>
+
+    <button id="resetBtn" class="reset-btn">Reset</button>
+  </div>
+
+  <script src="popup.js"></script>
+</body>
+</html>
